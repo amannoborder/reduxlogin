@@ -1,0 +1,33 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+.loginForm >h1{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.loginFOrm >input{
+    min-width: 380px;
+    padding: 20px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.sumitBtn{
+    padding:  17px 30px;
+    margin-top: 10px;
+    background: black;
+    color: white;
+    border-radius: 3px;
+}
